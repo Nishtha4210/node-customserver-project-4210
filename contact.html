@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #7a7979;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Contact Page</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/about">About</a>
+            </li>
+            <li>
+                <a href="/service">Services</a>
+            </li>
+            <li>
+                <a href="/contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <section style="padding: 40px; max-width: 600px; margin: auto;">
+    <p style="font-size: 18px; line-height: 1.6; text-align: center;">
+        Have questions, suggestions, or just want to say hello? We're here to help!
+        Feel free to reach out to us using the form below or through our contact details.
+    </p>
+
+    <form style="margin-top: 30px; display: flex; flex-direction: column; gap: 15px;">
+        <input type="text" placeholder="Your Name" required style="padding: 10px; font-size: 16px;">
+        <input type="email" placeholder="Your Email" required style="padding: 10px; font-size: 16px;">
+        <textarea placeholder="Your Message" rows="5" required style="padding: 10px; font-size: 16px;"></textarea>
+        <button type="submit" style="padding: 10px; font-size: 16px; background-color: #007BFF; color: white; border: none; cursor: pointer;">
+            Send Message
+        </button>
+    </form>
+
+    <div style="margin-top: 40px; text-align: center; font-size: 16px;">
+        <p><strong>Email:</strong> nishtha@gmail.com</p>
+        <p><strong>Phone:</strong> +91 8200909929</p>
+        <p><strong>Address:</strong> 123, surat, India</p>
+    </div>
+</section>
+</body>
+
+</html>
